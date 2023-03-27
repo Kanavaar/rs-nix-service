@@ -4,3 +4,18 @@
 * Rust Service with Nix
 
 This is the repo of me following the [[https://fasterthanli.me/series/building-a-rust-service-with-nix][Building a Rust Service with Nix series]], not more not less.
+
+** But what does this app do?
+
+It prints cat ascii art on the terminal and later as a web application
+
+* Building
+
+You just need nix because it installs everything else
+
+#+BEGIN_SRC shell
+  git clone https://github.com/kanavaar/rust-nix-service
+  cd rust-nix-service
+  direnv-allow # or nix-shell
+  cargo build
+#+END_SRC
