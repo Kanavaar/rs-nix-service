@@ -1,15 +1,15 @@
 #+TITLE: Rust Nix Service
 #+AUTHOR: Tilman A. Mix
 
-* Rust Service with Nix
+** Rust Service with Nix
 
 This is the repo of me following the [[https://fasterthanli.me/series/building-a-rust-service-with-nix][Building a Rust Service with Nix series]], not more not less.
 
-** But what does this app do?
+*** But what does this app do?
 
 It prints cat ascii art on the terminal and later as a web application
 
-* Building
+*** Building
 
 You just need nix because it installs everything else
 
