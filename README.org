@@ -1,0 +1,6 @@
+#+TITLE: Rust Nix Service
+#+AUTHOR: Tilman A. Mix
+
+* Rust Service with Nix
+
+This is the repo of me following the [[https://fasterthanli.me/series/building-a-rust-service-with-nix][Building a Rust Service with Nix series]], not more not less.
