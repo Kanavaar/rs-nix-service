@@ -4,7 +4,6 @@ pkgs.mkShell {
   nativeBuildInputs = with pkgs; [ pkg-config ]
   buildInputs = with pkgs; [
     cargo
-    mold
     openssl
     libressl
   ];
